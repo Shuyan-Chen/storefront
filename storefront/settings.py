@@ -59,12 +59,15 @@ MIDDLEWARE = [
      
 ]
 
+<<<<<<< HEAD
 INTERNAL_IPS = [
     # ...
     "127.0.0.1",
     # ...
 ]
 
+=======
+>>>>>>> 35ab373a86dfcb39e9ee4d404aa132c69282198e
 ROOT_URLCONF = 'storefront.urls'
 
 TEMPLATES = [
@@ -83,7 +86,15 @@ TEMPLATES = [
     },
 ]
 
+<<<<<<< HEAD
 
+=======
+INTERNAL_IPS = [
+    # ...
+    "127.0.0.1",
+    # ...
+]
+>>>>>>> 35ab373a86dfcb39e9ee4d404aa132c69282198e
 
 WSGI_APPLICATION = 'storefront.wsgi.application'
 
